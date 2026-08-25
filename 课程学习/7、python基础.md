@@ -20,7 +20,7 @@ float 浮点型  12.1
 bool 布尔类型   1  true           0  flase
 ```
 
-## 列表、字典、set集合
+## 列表、字典、set集合、None
 
 ```
 列表：
@@ -40,3 +40,18 @@ print(pop)
 字典：
 
 ```
+
+```
+set集合
+
+```
+
+```
+none
+result = none
+print(result)  #默认参数，当一个数据没有任何类型的时候就是一个none类型
+```
+
+# 类型转换
+
+
