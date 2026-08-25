@@ -23,5 +23,20 @@ bool 布尔类型   1  true           0  flase
 ## 列表、字典、set集合
 
 ```
+列表：
+
+list = []          #排列从0开始 0 1 2 3 ··· 等  
+list.append("零")  
+list.append("一")  
+list.append("二")  
+list.append("三")  
+num = list[0]  
+print(num)  
+pop = list.pop(3)    #不加参数 默认删除最后一个，  
+print(pop)
+```
+
+```
+字典：
 
 ```
