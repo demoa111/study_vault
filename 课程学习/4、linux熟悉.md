@@ -4,8 +4,8 @@
 ```
 基本命令：
 
-ls
-cd
+ls  -la 显示隐藏文件   l为列表形式 
+cd  
 touch
 rm -rf
 echo "数据" > 1.txt
