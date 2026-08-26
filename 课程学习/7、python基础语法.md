@@ -167,8 +167,19 @@ else:
 ```
 #for循环
 
+*# continue：跳过这一次，继续循环**
 
+for i in [1, 2, 3, 4, 5]:  
+    if i == 5:  
+        continue  
+    print(i)
+    
+**# break：直接结束整个循环**
 
+for i in [1, 2, 3, 4, 5]:  
+    if i == 3:  
+        break  
+    print(i)
 
 
 # while循环
