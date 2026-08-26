@@ -9,9 +9,9 @@ ls  -a 显示隐藏文件 l详细信息   r倒序排列  R递归显示子目录�
 cd   文件名 ~主目录  ..退一级  ../../ 退两级  /根目录
 touch  文件名.后缀  
 rm -rf  强制删除  
-echo "数据" > 1.txt
-cat
-id
+echo "数据" > 1.txt 写入   >> 文件末尾追加写
+cat  文件名 # 显示文件内容   a.txt b.txt 两个文件一块显示    a.txt b.txt > c.txt 将两个文件合并到新文件中
+id 查看权限
 whoami
 ip route
 route -n
