@@ -101,5 +101,36 @@ print(bool("1"))
 ## 常见错误示列
 
 ```
+# 错误写法
+age = input("Enter your age: ")      input中填写的值为str 
+print("Your age is", age)       
 
+#正确写法
+age = int(input("Enter your age: "))  
+print("Your age is", age + 1)
+```
+
+# 算术、比较、逻辑、成员、身份运算符
+
+```
+# 算术运算符
+
++ - * / //(整除) %（取余） **（次方）
+
+# 比较运算符
+>  <  >=   <=  ==   !=
+
+# 逻辑运算符 
+
+and  正正得正，正负得负，负负得负
+or   正正得正，正负得正，负负得负
+not  正得负，负得正
+
+# 成员运算符
+in   在
+not in   不在
+
+# 身份运算符
+is    是
+is not   不是
 ```
