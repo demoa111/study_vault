@@ -76,10 +76,17 @@ print(result)  #默认参数，当一个数据没有任何类型的时候就是�
 ## 字符串转整数、字符串转浮点数、数字转字符串、布尔转换
 
 ```
-字符串转整数
+# 字符串转整数
 age = "18"
 age_num = int(age)
 print(age_num + 1)
+
+# 字符串转浮点数  
+age = 12.1  
+age_num = float(age)  
+print(age_num + 1)
+
+
 
 
 ```
