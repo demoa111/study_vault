@@ -166,4 +166,16 @@ else:
 
 ```
 
+
+
+# while循环
+
+b = True                # 开关打开  
+while b:                # b是True就继续转  
+    pwd = input("请输入密码：")  
+    if len(pwd) >= 8:  
+        print("密码长度符合要求")  
+        b = False        # ← 把开关关上，循环结束  
+    else:  
+        print("密码太短，请重新输入")
 ```
