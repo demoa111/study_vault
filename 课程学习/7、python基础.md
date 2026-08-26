@@ -37,7 +37,7 @@ print(pop)
 ```
 
 ```
-字典：
+字典：   键：值
 user = {  
     "name": "wang",  
     "age": 20,  
