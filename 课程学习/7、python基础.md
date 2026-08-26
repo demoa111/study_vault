@@ -23,7 +23,7 @@ bool 布尔类型   1  true           0  flase
 ## 列表、字典、set集合、None
 
 ```
-列表：
+# 列表：
 
 list = []          #排列从0开始 0 1 2 3 ··· 等  
 list.append("零")  
@@ -37,7 +37,7 @@ print(pop)
 ```
 
 ```
-字典：   键：值
+# 字典：   键：值
 user = {  
     "name": "wang",  
     "age": 20,  
@@ -51,13 +51,22 @@ print(name)
 ```
 
 ```
-set集合
-
+# set集合
+ 
+# sets = set ()  
+sets = {1,2,3,4,5,6,7,8,9}  
+# sets.add (3)  
+# sets.add (4)  
+# sets.add (5)  
+# sets.add (6)  
+sets.remove(4)  
+# sets.clear()  
+print(sets)
 ```
 
 ```
-none
-result = none
+# None
+result = None
 print(result)  #默认参数，当一个数据没有任何类型的时候就是一个none类型
 ```
 
