@@ -86,7 +86,10 @@ age = 12.1
 age_num = float(age)  
 print(age_num + 1)
 
-
+# 数字转字符串  
+age = 12.1  
+age_num = str(age)  
+print(type(age_num))
 
 
 ```
