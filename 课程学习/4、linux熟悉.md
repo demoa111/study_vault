@@ -4,7 +4,7 @@
 ```
 基本命令：
 
-ls  -la 显示隐藏文件   l为列表形式 
+ls  -la 显示隐藏文件   l详细信息 
 cd  
 touch
 rm -rf
