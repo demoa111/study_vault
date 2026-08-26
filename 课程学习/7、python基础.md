@@ -38,7 +38,16 @@ print(pop)
 
 ```
 字典：
-
+user = {  
+    "name": "wang",  
+    "age": 20,  
+    "city": "shanghai"  
+}  
+  
+# user["age"] = 11  
+# user['id'] = 1       加或改参数
+name = user["age"]     取出其中参数数据
+print(name)
 ```
 
 ```
