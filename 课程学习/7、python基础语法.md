@@ -139,3 +139,31 @@ if result is None:
     print("over")
 
 ```
+
+# if条件判断
+
+```
+# 条件判断  
+a = 2  
+b = 2  
+if a > b:  
+    print("a大于b")  
+elif a == b:  
+  
+    print("a等于b")  
+else:  
+    print("a小于b")  
+  
+  
+a = "python"        
+if "a" in a:  
+    print("yes")  
+else:  
+    print("no")
+```
+
+# for循环、while循环
+
+```
+
+```
