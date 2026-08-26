@@ -165,6 +165,9 @@ else:
 # for循环、while循环
 
 ```
+#for循环
+
+
 
 
 
@@ -178,4 +181,15 @@ while b:                # b是True就继续转
         b = False        # ← 把开关关上，循环结束  
     else:  
         print("密码太短，请重新输入")
+
+写法二：
+        
+a = True  
+while a:  
+    pwd = input("请输入密码")  
+    if len(pwd) >= 3:  
+        print("yes")  
+        break  
+    else:  
+        print("no")        
 ```
