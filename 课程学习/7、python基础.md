@@ -133,4 +133,9 @@ not in   不在
 # 身份运算符
 is    是
 is not   不是
+
+result = None  
+if result is None:  
+    print("over")
+
 ```
