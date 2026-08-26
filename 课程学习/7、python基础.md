@@ -91,7 +91,11 @@ age = 12.1
 age_num = str(age)  
 print(type(age_num))
 
-
+# bool转换  
+print(bool(0))  
+print(bool(1))  
+print(bool(""))  
+print(bool("1"))
 ```
 
 ## 常见错误示列
