@@ -11,17 +11,30 @@ touch  文件名.后缀
 rm -rf  强制删除  
 echo "数据" > 1.txt 写入   >> 文件末尾追加写
 cat  文件名 # 显示文件内容   a.txt b.txt 两个文件一块显示    a.txt b.txt > c.txt 将两个文件合并到新文件中
-id 查看权限
-whoami
-ip route
-route -n
+id 用户ID+组ID+所有组
+whoami   查看用户权限
+ip route  查看路由表
+route -n   查看路由表
 ss -lntp   查看开放端口
-ps
-ssh
+ps  查看进程  -ef   aux  显示所有进程
+ssh  远程连接  
+
+# 1. 普通登录
+ssh zhangsan@10.0.0.1
+
+# 2. 指定端口
+ssh -p 2222 root@10.0.0.1
+
+# 3. 登录后直接执行一条命令然后断开
+ssh root@10.0.0.1 "ls /home"
+
+# 4. 用密钥文件登录
+ssh -i my_key.pem ubuntu@10.0.0.1
+
 kill   -9 + 进程pid
 killall  +进程名称
-ifconfig   
-ip addr 
+ifconfig   查看网络信息
+ip addr   查看网络信息
 
 防火墙命令：
 
