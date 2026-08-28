@@ -33,6 +33,12 @@ a.close()
 with open("wang/2.py", "r", encoding="utf-8") as f:  
     print(f.read())
 
-
-
 ```
+
+# 文件的分类
+
+
+## 分为文本类型与二进制文件（图片、视频）
+计算机只有文本类型和二进制类型
+
+# 
