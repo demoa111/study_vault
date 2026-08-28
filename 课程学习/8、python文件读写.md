@@ -23,7 +23,10 @@ w.close()
 
 #%%追加写入%%
 
-
+s = "\nwwwwwwww"    \n 为空格，转义符
+a = open("wang/1.txt", "a", encoding="utf-8")   
+a.write(s)  
+a.close()
 
 
 
