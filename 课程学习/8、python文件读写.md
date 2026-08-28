@@ -40,5 +40,14 @@ with open("wang/2.py", "r", encoding="utf-8") as f:
 
 ## 分为文本类型与二进制文件（图片、视频）
 计算机只有文本类型和二进制类型
+处理文本类型时，使用r是读，w是写，a是追加，处理二进制类型的话，就是在处理文本类型的基础加上b   **（注意不能指定编码避免破坏二进制格式）**
 
-# 
+```
+#%%读取与写入图片文件%%
+with open("wang/1.jpg", "rb") as f:  
+    img = f.read()  
+    print(img)  
+  
+with open("wang/测试图片.jpg", "wb") as w:  
+    w.write(img)
+```
