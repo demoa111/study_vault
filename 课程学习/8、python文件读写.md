@@ -28,7 +28,10 @@ a = open("wang/1.txt", "a", encoding="utf-8")
 a.write(s)  
 a.close()
 
+#%%with语法%%
 
+with open("wang/2.py", "r", encoding="utf-8") as f:  
+    print(f.read())
 
 
 
