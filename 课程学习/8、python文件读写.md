@@ -16,6 +16,17 @@ r.close()                   # 文件一定要关闭，会占用资源
 
 #%%写入%%
 
+s = "jdskjflsj"    # 写入的内容
+w = open("wang/1.txt", "w", encoding="utf-8")  #相对路径 
+print(w.write(s))  
+w.close()
+
+#%%追加写入%%
+
+
+
+
+
 
 
 ```
