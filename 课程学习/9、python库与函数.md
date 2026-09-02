@@ -51,6 +51,7 @@ while True:
 # 时间戳
 
 ```
-startTime = int(time.time())
+import time  # 导入库
+startTime = int(time.time())  查看 
 print(startTime)
 ```
