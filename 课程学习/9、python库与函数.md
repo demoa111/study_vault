@@ -53,5 +53,10 @@ while True:
 ```
 import time  # 导入库
 startTime = int(time.time())  # 查看 1970年1月1日 到现在的秒数（适合做运算）
-print(startTime)  # 输出结果
+
+可加运行代码
+
+endtime = int(time.time())
+print("程序运行时间为：" +  str(endtime - startTime) + "秒")  # 输出结果
 ```
+
