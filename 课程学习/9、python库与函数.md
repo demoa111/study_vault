@@ -60,3 +60,4 @@ endtime = int(time.time())
 print("程序运行时间为：" +  str(endtime - startTime) + "秒")  # 输出结果
 ```
 
+# 函数
