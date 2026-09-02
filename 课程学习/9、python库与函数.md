@@ -3,4 +3,4 @@
 自带库可以直接调用。
 外部库需要执行代码 python -m pip install + 库名称
 
-import +
+import + 库
