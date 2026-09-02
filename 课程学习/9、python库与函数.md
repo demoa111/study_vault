@@ -64,4 +64,6 @@ print("程序运行时间为：" +  str(endtime - startTime) + "秒")  # 输出�
 
 ```
 
+def checkAtk(): #定义函数名称，然后括号，加冒号
+
 ```
