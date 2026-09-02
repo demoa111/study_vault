@@ -64,6 +64,64 @@ print("程序运行时间为：" +  str(endtime - startTime) + "秒")  # 输出�
 
 ```
 
-def checkAtk(): #定义函数名称，然后括号，加冒号 函数不仅能定义一个，他能定义多个
+def checkAtk(hero,bz): #定义函数名称，然后括号，加冒号 函数不仅能定义一个，他能定义多个
 
+    bj = hero * 100    # 如果你啥也没传，并且他还没有默认值，那么他就会被None占位，然后这里运算的时候，就会报错
+
+    while True:
+
+        list = []
+
+        for i in range(100):
+
+            isBj = False
+
+  
+
+            if i < bj:
+
+                isBj = True
+
+  
+
+            list.append(isBj)
+
+  
+
+        number = 0
+
+        for i in list:
+
+            if i:
+
+                number = number + 1
+
+        print("当前暴击率是：" + "" +  str(number) + "%")
+
+  
+
+        r = random.randint(0,100 -1)
+
+  
+
+        if list[r]:
+
+            print("暴击成功了")
+
+            # 如果暴击成功了，需要把补正给他踢回去
+
+            bj = hero * 100
+
+            return True
+
+  
+
+        else:
+
+            print("暴击失败了")
+
+            bj = bj + bz
+
+        input("")
+        
 ```
