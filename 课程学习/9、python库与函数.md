@@ -52,6 +52,6 @@ while True:
 
 ```
 import time  # 导入库
-startTime = int(time.time())  查看 
-print(startTime)
+startTime = int(time.time())  # 查看 1970年1月1日 到现在的秒数（适合做运算）
+print(startTime)  # 输出结果
 ```
