@@ -90,8 +90,8 @@ say_hello("提莫")
 def jia(a)
 	c = a + 1
 	retrun c
-m = a(100)
-print("结果为：", m)  #
+m = jia(100)
+print("结果为：", m)  #给值后代入计算中
 
 def checkAtk(hero,bz): #定义函数名称，然后括号，加冒号 函数不仅能定义一个，他能定义多个
 
