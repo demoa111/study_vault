@@ -156,3 +156,24 @@ def checkAtk(hero,bz): #定义函数名称，然后括号，加冒号 函数不�
         
 checkAtk(0.1, 1) #传入参数的值        
 ```
+
+
+```
+# 1.py
+
+
+
+
+
+#   test.py文件
+def add(a,b):
+
+    return  a + b
+
+  
+  
+
+def sub(a,b):
+
+    return a -b
+```
