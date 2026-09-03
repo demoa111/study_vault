@@ -158,15 +158,19 @@ checkAtk(0.1, 1) #传入参数的值       
 ```
 
 
+## 使用别的文件下的函数
+
 ```
-# 1.py
+# 1.py 
 
-
+from test import add,sub    #导入
+print(add(1,2))     #传参
+print(sub(4, 3))
 
 
 
 #   test.py文件
-def add(a,b):
+def add(a,b):  
 
     return  a + b
 
@@ -176,4 +180,18 @@ def add(a,b):
 def sub(a,b):
 
     return a -b
+```
+
+# 总结
+
+```
+#库
+
+python中提供一些简单的内部库，也有需要下载的库
+
+#函数
+
+1、函数的作用就是将功能分割，可以复用，也可以传参
+2、def"定义函数"  test"函数名称"  ()"表示该出为函数，并允许在括号中定义参数"    : "和if 一样，表示到这里截止"
+3、函数的返回
 ```
