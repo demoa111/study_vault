@@ -80,6 +80,19 @@ def 函数名(参数1, 参数2):
 
 #第三种写法
 
+# 定义一个打招呼的函数，name 就是参数（食材）
+def say_hello(name):
+print(f"{name}，欢迎回到游戏！") # 调用函数时，把具体的名字传进去 say_hello("亚索") 
+say_hello("提莫")
+
+#第四种写法
+
+def jia(a)
+	c = a + 1
+	retrun c
+m = a(100)
+print("结果为：", m)  #
+
 def checkAtk(hero,bz): #定义函数名称，然后括号，加冒号 函数不仅能定义一个，他能定义多个
 
     bj = hero * 100    # 如果你啥也没传，并且他还没有默认值，那么他就会被None占位，然后这里运算的时候，就会报错
