@@ -33,6 +33,11 @@ OPTION  这是一个预检请求
 400 类的错误，一般表示客户端这边有问题
 500 类错误，表示服务端有问题
 
+# http的请求携带信息
+
+# http请求分为 http头部，请求我们一般叫request,这里也可以叫request头部，还有request body
+
+# 头部中主要是一些请求信息，鉴权信息，body中，就是我们自定义要给服务器发送的信息，比如我们访问的时候，要查询一下数据，这里body就会带查询条件
 
 # https  而不是 http
 
@@ -82,6 +87,36 @@ OPTION  这是一个预检请求
 # payload 就是携带的信息
 
 # sign 就是验签工具，他会将payload信息，通过head中的算法进行加密，然后跟在后面，服务端获取这个jwt凭证后，会将这个payload，再进行加密算一次，和当前携带的sign进行比对，就可以得知，这个票据是否真实
+
+# http请求携带参数的方式，大致分为两类：
+
+# 1.content-type  application/json   这里标注他的类型是json格式，那么他携带的参数，肯定也是json格式  如：
+
+#{
+
+#    "pageNumber": 1,
+
+#    "pageSize": 10
+
+#}
+
+# 2.第二种采用text方式，字符形式
+
+# 如https://www.baidu.com/?tn=68018901_16_pg    注意这个问号，有这个问号，说明他在这里进行了传参，传的是一个
+
+# 像这样，他传入一个变量tn = 68018901_16_pg  传给服务端，服务端只要定义一个叫tn的变量就可以接收到他传递的这个信息
+
+# 如果要传递多个信息：https://www.baidu.com/s?wd=test&rsv_spt=1&rsv_iqid=0xb1f12b2f0352a275&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=68018901_16_pg&rsv_enter=1&rsv_dl=tb_enter&rsv_sug3=5&rsv_sug1=3&rsv_sug7=100&rsv_btype=i&inputT=783&rsv_sug4=1687
+
+# 首先问号表示这里会进行传参，问号后面的就是要传递的参数，但是参数要进行分割，如果有多个，会使用&进行分割数据，实际他传递参数如下
+
+  
+
+# wd = test
+
+# rsv_spt = 1
+
+# rsv_iqid=0xb1f12b2f0352a275
 
 ```
 
